@@ -1,6 +1,14 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): %s"
+    },
+    "version": {
+      "allowBranch": "main"
+    }
+  },
+  "changelogPreset": "./build/changelog-generator",
+  "packages": ["packages/*"],
   "version": "1.0.0"
 }
