@@ -9,6 +9,8 @@
     }
   },
   "changelogPreset": "./build/changelog-generator",
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "version": "1.0.0"
 }
