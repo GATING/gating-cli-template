@@ -29,5 +29,6 @@
     "commitlint-config-cz": "^0.13.3",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.4"
-  }
+  },
+  "version": "1.1.0"
 }
