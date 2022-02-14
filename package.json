@@ -1,0 +1,33 @@
+{
+  "name": "gating-cli-template",
+  "private": true,
+  "scripts": {
+    "publish": "lerna publish",
+    "commit": "git add -A && git-cz",
+    "commitlint": "commitlint"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run commitlint -- -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
+  },
+  "dependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "commitlint": "^16.2.1",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.4"
+  }
+}
