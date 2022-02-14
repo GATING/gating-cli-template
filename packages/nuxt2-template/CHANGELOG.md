@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.3"></a>
+
+# 1.0.3 (2022-02-14)
+[完整变更日志](https://github.com/GATING/gating-cli-template/compare/v1.0.0...v1.0.3)
+
+## 🐞 修复
+
+* template: 模板文件丢失 ([fd4c288](https://github.com/GATING/gating-cli-template/commit/fd4c288))
+
+
 <a name="1.0.0"></a>
 
 # 1.0.0 (2022-02-14)
