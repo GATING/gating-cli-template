@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { Toast } from 'vant'
+import { Toast, Notify } from 'vant'
 import store from '@/store'
 import { getToken } from './auth'
 import { errorStatus } from './variables'
@@ -38,6 +38,7 @@ const errorHandler = error => {
   deleteLoading()
   const status = error?.response?.status
   error.message = errorStatus[status] || '未知错误'
+  Notify({ type: 'danger', message: error.message })
   return Promise.reject(error)
 }
 
