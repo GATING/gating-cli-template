@@ -1,0 +1,69 @@
+@import './_size';
+@import './_color';
+@import './_flex';
+@import './vant-ui';
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+body,
+html {
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-regular;
+  padding: 0;
+  margin: 0;
+  background: $bg-color;
+  color: $main-color;
+  -webkit-overflow-scrolling: touch;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+
+#app {
+  /* px-to-viewport-ignore-next */
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.van-sticky--fixed,
+.van-tabbar--fixed,
+.van-dropdown-item__content,
+.van-popup,
+.van-goods-action {
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.font-medium {
+  @extend %font-medium;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.safe-area-inset-bottom {
+  @extend %safe-area-inset-bottom;
+}

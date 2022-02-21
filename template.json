@@ -6,5 +6,13 @@
     "type": "normal",
     "installCommand": "npm install",
     "ignore": ["**/public/**"]
+  },
+  {
+    "name": "vue2 基础移动端模板(Vant)",
+    "npmName": "@gating-cli/vue2-simple-mobile-template",
+    "version": "latest",
+    "type": "normal",
+    "installCommand": "npm install",
+    "ignore": ["**/public/**"]
   }
 ]
