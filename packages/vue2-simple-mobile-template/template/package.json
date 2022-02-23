@@ -7,6 +7,8 @@
     "serve:prod": "vue-cli-service serve --mode production",
     "serve:stage": "vue-cli-service serve --mode stage",
     "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:stage": "vue-cli-service build --mode stage",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

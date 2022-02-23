@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { includes } from 'lodash'
 import store from '@/store'
 import router from './router'
 import { getToken } from '@util/auth'
@@ -28,7 +29,7 @@ router.beforeEach(async (to, from, next) => {
       }
     }
   } else {
-    if (whiteList.findIndex(path => to.path === path || to.path.startsWith('/wbl')) !== -1) {
+    if (includes(whiteList, to.path)) {
       next()
     } else {
       next(`/login?redirect=${to.path}`)

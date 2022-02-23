@@ -14,5 +14,13 @@
     "type": "normal",
     "installCommand": "npm install",
     "ignore": ["**/public/**"]
+  },
+  {
+    "name": "uni-app 基础模板(uView)",
+    "npmName": "@gating-cli/vue2-simple-mobile-template",
+    "version": "latest",
+    "type": "normal",
+    "installCommand": "npm install",
+    "ignore": ["**/public/**"]
   }
 ]
