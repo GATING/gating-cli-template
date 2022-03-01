@@ -1,0 +1,72 @@
+@each $size in $size-map {
+  .pr-#{$size} {
+    padding-right: #{$size}px;
+  }
+  .mr-#{$size} {
+    margin-right: #{$size}px;
+  }
+  .pl-#{$size} {
+    padding-left: #{$size}px;
+  }
+  .ml-#{$size} {
+    margin-left: #{$size}px;
+  }
+  .pt-#{$size} {
+    padding-top: #{$size}px;
+  }
+  .mt-#{$size} {
+    margin-top: #{$size}px;
+  }
+  .pb-#{$size} {
+    padding-bottom: #{$size}px;
+  }
+  .ptb-#{$size} {
+    padding-top: #{$size}px;
+    padding-bottom: #{$size}px;
+  }
+  .plr-#{$size} {
+    padding-left: #{$size}px;
+    padding-right: #{$size}px;
+  }
+  .mtb-#{$size} {
+    margin-top: #{$size}px;
+    margin-bottom: #{$size}px;
+  }
+  .mlr-#{$size} {
+    margin-left: #{$size}px;
+    margin-right: #{$size}px;
+  }
+  .mb-#{$size} {
+    margin-bottom: #{$size}px;
+  }
+  .p-#{$size} {
+    padding: #{$size}px;
+  }
+  .m-#{$size} {
+    margin: #{$size}px;
+  }
+}
+
+@each $size in $font-sizes {
+  .fs-#{$size} {
+    font-size: #{$size}px;
+  }
+}
+
+@each $percent in $percent-map {
+  .wp-#{$percent} {
+    width: $percent * 1%;
+  }
+  .hp-#{$percent} {
+    height: $percent * 1%;
+  }
+}
+
+@each $size in $width-map {
+  .w-#{$size} {
+    width: #{$size}px;
+  }
+  .h-#{$size} {
+    height: #{$size}px;
+  }
+}

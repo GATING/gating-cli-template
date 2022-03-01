@@ -1,6 +1,6 @@
 const router = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     meta: {
       title: '首页',

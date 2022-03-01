@@ -18,20 +18,21 @@
 
 <script>
 import { some } from 'lodash'
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 import routes from '@/router/modules/app'
-import { primaryColor, secondaryColor } from '@style/variables-export.scss'
+import { primaryColor, secondaryColor } from '@style/variables-export.module.scss'
+
 export default {
-  name: 'GlobalLayout',
-  data() {
+  setup() {
+    const route = useRoute()
+    const hasMenu = computed(() => some(routes, ({ path }) => route.path === path))
+
     return {
       primaryColor,
       secondaryColor,
-      routes
-    }
-  },
-  computed: {
-    hasMenu() {
-      return some(routes, ({ path }) => this.$route.path === path)
+      routes,
+      hasMenu
     }
   }
 }

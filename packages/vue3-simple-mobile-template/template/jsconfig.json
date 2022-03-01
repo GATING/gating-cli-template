@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@api/*": ["./src/api/*"],
+      "@util/*": ["./src/utils/*"],
+      "@view/*": ["./src/views/*"],
+      "@comp/*": ["./src/comp/*"],
+      "@style/*": ["./src/style/*"],
+      "@hook/*": ["./src/hooks/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  }
+}
