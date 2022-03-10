@@ -1,7 +1,7 @@
 {
-  "name": "vue3-simple-mobile-template",
+  "name": "<%= className %>",
+  "version": "<%= version %>",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
     "dev": "vite --mode development",
     "dev:stage": "vite --mode staging",
