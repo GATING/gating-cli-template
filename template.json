@@ -17,7 +17,7 @@
   },
   {
     "name": "vue3 基础移动端模板(Vant+JS)",
-    "npmName": "@gating-cli/vue2-simple-mobile-template",
+    "npmName": "@gating-cli/vue3-simple-mobile-template",
     "version": "latest",
     "type": "normal",
     "installCommand": "npm install",
@@ -25,7 +25,7 @@
   },
   {
     "name": "uni-app 基础模板(uView)",
-    "npmName": "@gating-cli/vue2-simple-mobile-template",
+    "npmName": "@gating-cli/uni-app-simple-template",
     "version": "latest",
     "type": "normal",
     "installCommand": "npm install",
