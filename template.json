@@ -21,7 +21,7 @@
     "version": "latest",
     "type": "normal",
     "installCommand": "npm install",
-    "ignore": ["**/public/**"]
+    "ignore": ["index.html"]
   },
   {
     "name": "uni-app 基础模板(uView)",
