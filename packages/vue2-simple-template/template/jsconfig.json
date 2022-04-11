@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": false,
+    "paths": {
+      "@/*": ["src/*"],
+      "@api/*": ["src/api/*"],
+      "@util/*": ["src/utils/*"],
+      "@view/*": ["src/views/*"],
+      "@comp/*": ["src/components/*"],
+      "@style/*": ["src/styles/*"],
+      "@plugin/*": ["src/plugins/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
