@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.7"></a>
+
+# 1.1.7 (2022-04-11)
+[完整变更日志](https://github.com/GATING/gating-cli-template/compare/v1.1.6...v1.1.7)
+
+## ✨ 新功能
+
+* template: vue2 基础模板(Element) ([733ca4c](https://github.com/GATING/gating-cli-template/commit/733ca4c))
+
+## 🐞 修复
+
+* 模板包名错误 ([2af8f94](https://github.com/GATING/gating-cli-template/commit/2af8f94))
+* template: vue2-simple-template package.json 修改 ([56eabf3](https://github.com/GATING/gating-cli-template/commit/56eabf3))
+* template: vue3 基础移动端模板安装错误 ([6e702ae](https://github.com/GATING/gating-cli-template/commit/6e702ae))
+
+
+
 <a name="1.1.6"></a>
 
 # 1.1.6 (2022-03-10)
